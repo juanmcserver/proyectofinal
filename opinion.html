@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Hirohiko-Araki-fan-page/opinion</title>
+    <meta name="description" content="esta es una pagina dedicada al mangaka hirohiko araki, sobre su arte y sus obras">
+    <meta name="keywords"  content="hirohiko araki, araki, hirohiko, manga, mangaka, anime ">
+</head>
+<body>
+    <header class="yqc">
+        <img src="img/araki.jpg" alt="imgAlt/araki.jpg" class="logo">
+        <p class="titulo">Hirohiko Araki</p>
+        <nav>
+          <ul>
+              <li class="nav"><a href="index.html" class="nav">home</a></li>
+              <li class="nav"><a href="obras.html" class="nav">obras</a></li>
+              <li class="nav"><a href="biografia.html" class="nav">biografia</a></li>
+              <li class="nav"><a href="galeria.html" class="nav">galeria</a></li>
+              <li class="nav"><a href="opinion.html" class="nav">opinion</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend class="blancoStat">datos personales</legend>
+                <label for="mail" class="blancoStat">ingrese su mail:</label>
+                <input type="text" id="mail" class="opinion">
+                <br>
+                <label for="telefono" class="blancoStat">ingrese su telefono:</label>
+                <input type="number" id="telefono"class="opinion">
+                <br>
+                <label for="checkbox" class="blancoStat">acepta que guardemos esta informacion para una encuesta?</label>
+                <input type="checkbox" id="checkbox">
+            </fieldset>
+            <br>
+            <label for="comentarios" class="blancoStat">comentarios</label>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10" ></textarea>
+            <br>
+            <fieldset>
+                <legend class="blancoStat">cual de sus obras es tu favorita</legend>
+                <label for="obras" class="blancoStat">obras:</label>
+                <select name="obras" id="obras">
+                    <option value="">no se</option>
+                    <option value="">jojos</option>
+                    <option value="">baoh</option>
+                    <option value="">Mashōnen B. T.</option>
+                    <option value="">outlaw man</option>
+                </select>
+            </fieldset>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li class="footer"><p class="foot">numero de contacto:  2226607484</p></li>
+            <li class="footer"><p class="foot">facebook:Hirohiko.Araki_</p></li>
+            <li class="footer"><p class="foot">instagram::Hirohiko.Araki_</p></li>
+            <li class="footer"><p class="foot">twitter:Hirohiko_Araki.</p></li>
+        </ul>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>   
+</body>
+</html>

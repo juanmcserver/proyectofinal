@@ -1,0 +1,390 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+header{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+}
+li{
+    font-family: 'Staatliches', cursive;
+    list-style: none;
+    color: white;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+body{
+    background-image: url(file:///C:/Users/Euro/Desktop/desarrollo%20web/estructura%20html/img/jojosPatron.jpg); 
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: repeat;
+    width: 99%;
+}
+footer{
+    background-image: linear-gradient(to top, rgb(102, 85, 63), burlywood );
+    height: 5vw;
+}
+fieldset{
+    background-color:  rgb(70, 69, 69);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+nav{
+    height: 3vw;
+    width: 90vw;
+}
+#divmain{
+    display: flex;
+    flex-direction: column;     
+}
+#Tabla{
+    line-height: 200%;
+    margin: 0px 20px 0px 20px;
+
+}
+#home{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100% ;
+    column-gap: 3vw;
+}
+#arakifachero{
+    height: 40vw;
+    width: 30vw;   
+}
+#arakifachero2{
+    height: 40vw;
+    width: 40vw;   
+}
+#arakifachero3{
+    height: 40vw;
+    width: 30vw;   
+}
+#galeGrid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows:repeat(4 1fr) ;
+    column-gap: 2vw;
+}
+#bio{
+    margin: 0px 20px 0px 20px;
+}
+.tablaFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.letrasGrandes{
+    font-size: 2em;
+    color: white;
+}
+.footer{
+    display: inline-block;
+    transform: translate(20vw, 0px);
+}
+.foot{
+    display: inline;
+    text-decoration: none;
+    font-family:  'Roboto Mono', monospace;
+    font-size: 1em;
+    color: darkblue;
+}
+section>img{
+    height: 40vw;
+    width: 30vw;
+}
+.logo{
+    height: 5vw;
+    width: 5vw;
+    animation-name: logo;
+    animation-duration: 1s;
+}
+.nav{
+    font-family:  'Roboto Mono', monospace;
+    font-size: 1.3em;
+    list-style-type: none;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display:inline;
+    padding: 0% 3% 0% 3%;
+}
+.opinion:hover{
+    transform: scale(1.5, 1.5) translate(22px, 0px);
+}
+.blanco{
+    color: white;
+    margin: 7px 10px 7px 0px;
+}
+.blancoStat{
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+.fondoGris{
+    background-color:rgb(70, 69, 69);
+    opacity: 95%;
+    border-top: solid 10px rgb(31, 31, 31);
+    border-right: solid 10px rgb(15, 15, 15);
+    border-bottom: solid 10px rgb(31, 31, 31);
+    border-left: solid 10px rgb(15, 15, 15);
+}
+.titulo{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 4vw;
+    color: rgb(228, 225, 225);
+    animation-name: appear;
+    animation-duration: 3s;
+}
+.yqc{
+    background-color:rgb(31, 26, 31);
+    opacity: 90%;
+    border-top: solid 10px rgb(31, 31, 31);
+    border-right: solid 5px rgb(15, 15, 15);
+    border-left: solid 5px rgb(15, 15, 15);
+}
+@keyframes appear{
+    10%{
+        opacity: 10%;
+    }
+    20%{
+        opacity: 20%;
+    }
+    30%{
+        opacity: 30%;
+    }
+    40%{
+        opacity: 40%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    60%{
+        opacity: 60%;
+    }
+    70%{
+        opacity: 70%;
+    }
+    80%{
+        opacity: 80%;
+    }
+    90%{
+        opacity: 90%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes logo {
+    0%{
+        opacity: 0%;
+        transform: translate(-50px, 0px);
+    }
+    10%{
+        opacity: 10%;
+        transform: translate(-45px, 0px);
+    }
+    20%{
+        opacity: 20%;
+        transform: translate(-40px, 0px);
+    }
+    30%{
+        opacity: 30%;
+        transform: translate(-35px, 0px);
+    }
+    40%{
+        opacity: 40%;
+        transform: translate(-30px, 0px);
+    }
+    50%{
+        opacity: 50%;
+        transform: translate(-25px, 0px);
+    }
+    60%{
+        opacity: 60%;
+        transform: translate(-20px, 0px);
+    }
+    70%{
+        opacity: 70%;
+        transform: translate(-15px, 0px);
+    }
+    80%{
+        opacity: 80%;
+        transform: translate(-10px, 0px);
+    }
+    90%{
+        opacity: 90%;
+        transform: translate(-5px, 0px);
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@media (max-width: 576px){
+    .logo{
+        height: 10vw;
+        width: 10vw;
+    }
+    nav{
+        height: 15vw;
+    }
+    .nav{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 1.5;
+    }
+    .letrasGrandes{
+        font-size: 1em;
+    }
+    #home{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60% ;
+    }
+    #arakifachero{
+        height: 80vw;
+        width: 60vw;   
+    }
+    #arakifachero2{
+        height: 80vw;
+        width: 80vw;   
+    }
+    #arakifachero3{
+        height: 80vw;
+        width: 60vw;   
+    }
+    footer{
+        height: 100%;
+    }
+    .footer{
+        display: inline;
+    }
+}
+@media (min-width: 576px){
+    .logo{
+        height: 15vw;
+        width: 15vw;
+    }
+    nav{
+        height: 15vw;
+    }
+    .nav{
+        font-size: 1.2em;
+    }
+    h1{
+        font-size: 1.5;
+    }
+    .letrasGrandes{
+        font-size: 1.2em;
+    }
+    #home{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60% ;
+    }
+    #arakifachero{
+        height: 80vw;
+        width: 60vw;   
+    }
+    #arakifachero2{
+        height: 80vw;
+        width: 80vw;   
+    }
+    #arakifachero3{
+        height: 80vw;
+        width: 60vw;   
+    }
+    footer{
+        height: 100%;
+    }
+    .footer{
+        display: inline;
+    }
+}
+@media (min-width:768px){
+    .nav{
+        font-size: 1.4em;
+    }
+    h1{
+        font-size: 1.7;
+    }
+    .letrasGrandes{
+        font-size: 1.4em;
+    }
+    #arakifachero{
+        height: 60vw;
+        width: 45vw;   
+    }
+    #arakifachero2{
+        height: 60vw;
+        width: 60vw;   
+    }
+    #arakifachero3{
+        height: 60vw;
+        width: 45vw;   
+    }
+}
+@media(min-width:992px){
+    .logo{
+        height: 10vw;
+        width: 10vw;
+    }
+    nav{
+        height: 10vw;
+    }
+    .nav{
+        font-size: 1.5em;
+    }
+    .letrasGrandes{
+        font-size: 1.5em;
+    }
+}
+@media(min-width:1200px){
+    .logo{
+        height: 5vw;
+        width: 5vw;
+    }
+    nav{
+        height: 8vw;
+    }
+    .nav{
+        font-size: 1.5em;
+    }
+    h1{
+        font-size: 1.7;
+    }
+    .letrasGrandes{
+        font-size: 1.5em;
+    }
+    #home{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100% ;
+    }
+    #arakifachero{
+        height: 40vw;
+        width: 30vw;   
+    }
+    #arakifachero2{
+        height: 40vw;
+        width: 40vw;   
+    }
+    #arakifachero3{
+        height: 40vw;
+        width: 30vw;   
+    }
+}
+
